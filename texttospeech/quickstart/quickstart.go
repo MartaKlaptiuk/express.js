@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Command quickstart generates an audio file with the content "Hello, World!".
+// Command quickstart generates an audio file with the content "Marta from Transactive.io says hello".
 package main
 
 import (
@@ -41,7 +41,7 @@ func main() {
 	req := texttospeechpb.SynthesizeSpeechRequest{
 		// Set the text input to be synthesized.
 		Input: &texttospeechpb.SynthesisInput{
-			InputSource: &texttospeechpb.SynthesisInput_Text{Text: "Hello, World!"},
+			InputSource: &texttospeechpb.SynthesisInput_Text{Text: "Marta from Transactive.io says hello"},
 		},
 		// Build the voice request, select the language code ("en-US") and the SSML
 		// voice gender ("neutral").

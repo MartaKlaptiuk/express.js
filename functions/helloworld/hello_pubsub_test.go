@@ -29,7 +29,7 @@ func TestHelloPubSub(t *testing.T) {
 		data string
 		want string
 	}{
-		{want: "Hello, World!\n"},
+		{want: "Marta from Transactive.io says hello\n"},
 		{data: "Go", want: "Hello, Go!\n"},
 	}
 	for _, test := range tests {

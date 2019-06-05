@@ -32,7 +32,7 @@ func TestHelloGet(t *testing.T) {
 	if err != nil {
 		t.Fatalf("ReadAll: %v", err)
 	}
-	want := "Hello, World!"
+	want := "Marta from Transactive.io says hello"
 	if got := string(out); got != want {
 		t.Errorf("HelloWorld = %q, want %q", got, want)
 	}

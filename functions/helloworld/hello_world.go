@@ -24,7 +24,7 @@ import (
 
 // HelloGet is an HTTP Cloud Function.
 func HelloGet(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello, World!")
+	fmt.Fprint(w, "Marta from Transactive.io says hello")
 }
 
 // [END functions_helloworld_get]

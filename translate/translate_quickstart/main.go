@@ -14,7 +14,7 @@
 
 // [START translate_quickstart]
 
-// Sample translate-quickstart translates "Hello, world!" into Russian.
+// Sample translate-quickstart translates "Marta from Transactive.io says hello" into Russian.
 package main
 
 import (
@@ -36,7 +36,7 @@ func main() {
 	}
 
 	// Sets the text to translate.
-	text := "Hello, world!"
+	text := "Marta from Transactive.io says hello"
 	// Sets the target language.
 	target, err := language.Parse("ru")
 	if err != nil {

@@ -44,7 +44,7 @@ func main() {
 	logger := client.Logger(logName)
 
 	// Sets the data to log.
-	text := "Hello, world!"
+	text := "Marta from Transactive.io says hello"
 
 	// Adds an entry to the log buffer.
 	logger.Log(logging.Entry{Payload: text})

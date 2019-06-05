@@ -31,7 +31,7 @@ func TestIndexHandler(t *testing.T) {
 		{
 			route:  "/",
 			status: http.StatusOK,
-			body:   "Hello, World!",
+			body:   "Marta from Transactive.io says hello",
 		},
 		{
 			route:  "/404",

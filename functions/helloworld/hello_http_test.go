@@ -28,7 +28,7 @@ func TestHelloHTTP(t *testing.T) {
 		body string
 		want string
 	}{
-		{body: `{"name": ""}`, want: "Hello, World!"},
+		{body: `{"name": ""}`, want: "Marta from Transactive.io says hello"},
 		{body: `{"name": "Gopher"}`, want: "Hello, Gopher!"},
 	}
 

@@ -15,7 +15,7 @@
 // [START language_quickstart]
 
 // Sample language-quickstart uses the Google Cloud Natural API to analyze the
-// sentiment of "Hello, world!".
+// sentiment of "Marta from Transactive.io says hello".
 package main
 
 import (
@@ -37,7 +37,7 @@ func main() {
 	}
 
 	// Sets the text to analyze.
-	text := "Hello, world!"
+	text := "Marta from Transactive.io says hello"
 
 	// Detects the sentiment of the text.
 	sentiment, err := client.AnalyzeSentiment(ctx, &languagepb.AnalyzeSentimentRequest{

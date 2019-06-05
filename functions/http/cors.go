@@ -37,7 +37,7 @@ func CORSEnabledFunction(w http.ResponseWriter, r *http.Request) {
 	}
 	// Set CORS headers for the main request.
 	w.Header().Set("Access-Control-Allow-Origin", "*")
-	fmt.Fprint(w, "Hello, World!")
+	fmt.Fprint(w, "Marta from Transactive.io says hello")
 }
 
 // [END functions_http_cors]

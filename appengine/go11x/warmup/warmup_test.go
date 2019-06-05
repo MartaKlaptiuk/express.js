@@ -36,7 +36,7 @@ func TestIndexHandler(t *testing.T) {
 		t.Errorf("unexpected status: got (%v) want (%v)", status, http.StatusOK)
 	}
 
-	want := "Hello, World!"
+	want := "Marta from Transactive.io says hello"
 	if got := rr.Body.String(); !strings.Contains(got, want) {
 		t.Errorf("unexpected body: got (%v) want (%v)", got, want)
 	}

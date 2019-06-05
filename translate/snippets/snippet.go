@@ -37,7 +37,7 @@ func createClientWithKey() {
 		log.Fatal(err)
 	}
 
-	resp, err := client.Translate(ctx, []string{"Hello, world!"}, language.Russian, nil)
+	resp, err := client.Translate(ctx, []string{"Marta from Transactive.io says hello"}, language.Russian, nil)
 	if err != nil {
 		log.Fatal(err)
 	}

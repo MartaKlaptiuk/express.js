@@ -32,7 +32,7 @@ func TestParseXML(t *testing.T) {
 		},
 		{
 			body: `<Person></Person>`,
-			want: "Hello, World!",
+			want: "Marta from Transactive.io says hello",
 		},
 	}
 

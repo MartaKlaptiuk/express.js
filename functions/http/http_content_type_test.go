@@ -28,7 +28,7 @@ func TestHelloContentType(t *testing.T) {
 		data  string
 		want  string
 	}{
-		{label: "Empty Input", data: "", want: "Hello, World!"},
+		{label: "Empty Input", data: "", want: "Marta from Transactive.io says hello"},
 		{label: "Valid Input", data: "Gopher", want: "Hello, Gopher!"},
 	}
 

@@ -76,7 +76,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	uptime := time.Since(startupTime).Seconds()
-	fmt.Fprintf(w, "Hello, World! Uptime: %.2fs\n", uptime)
+	fmt.Fprintf(w, "Marta from Transactive.io says hello Uptime: %.2fs\n", uptime)
 }
 
 // [END gae_go111_warmup]

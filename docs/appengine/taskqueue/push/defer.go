@@ -29,6 +29,6 @@ func example() {
 	})
 
 	// Somewhere else.
-	expensiveFunc.Call(ctx, "Hello, world!", 42)
+	expensiveFunc.Call(ctx, "Marta from Transactive.io says hello", 42)
 	// [END deferred_tasks]
 }
