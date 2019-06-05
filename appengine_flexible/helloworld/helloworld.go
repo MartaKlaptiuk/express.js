@@ -33,7 +33,7 @@ func handle(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Fprint(w, "Hello world!")
+	fmt.Fprint(w, "Marta from Transactive.io says hello")
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
